@@ -1,0 +1,9 @@
+name: corgishangoutsmp
+version: '1.2.1'
+main: dev.tymen.corgishangoutsmp.Corgishangoutsmp
+api-version: '1.20'
+commands:
+  votesun:
+    description: Start a vote to change the weather to sunny or vote yes on an ongoing vote.
+    usage: /votesun [yes]
+    aliases: [vsun]
